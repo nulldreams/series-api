@@ -27,7 +27,7 @@ function update (nome, epIndex, data, cb) {
     documento.series[indexSerie].episodios[epIndex] = ep
     db.update({}, documento, {}, (err, numReplaced) => {
       console.log(`${nome} foi alterado`)
-      // console.log(numReplaced)
+      console.log(numReplaced)
     })
   })
 }
