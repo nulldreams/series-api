@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.4",
+    "fastify": "^1.0.0-rc.1",
+    "lodash": "^4.17.5",
+    "nedb": "^1.8.0",
+    "node-schedule": "^1.3.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
